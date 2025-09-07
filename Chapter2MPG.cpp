@@ -11,11 +11,13 @@ using namespace std;
 
 int main()
 {
-    int gas_gal, miles, MPG;
+    float gas_gal, miles, MPG;
 
-        gas_gal = 15;
-        miles = 375;
-
+    cout << "Enter the amount of gallons of gasoline your car holds: " << endl;
+    cin >> gas_gal;
+    cout << "Enter the miles your car travels before refeuling: " << endl;
+    cin >> miles;
+        
         MPG = miles / gas_gal;
 
         cout << "The MPG of a car that goes " 
